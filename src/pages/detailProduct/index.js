@@ -44,7 +44,7 @@ const DetailProduct = () => {
           {userDataLoading && <Loading />}
         </div>
 
-        <h1 className="display-4">Detail Product</h1>
+        <h1 className="display-4">Data Product</h1>
         <p className="lead">{products.description}</p>
         <div className="row">
           <ProductCard data={products} />

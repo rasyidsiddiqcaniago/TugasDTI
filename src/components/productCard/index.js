@@ -12,9 +12,9 @@ const ProductCard = ({ data }) => {
           </Link>
           <h6 className="card-subtitle mb-2 text-muted">
             {data.in_stock ? (
-              <span className="badge badge-secondary">Available</span>
+              <span className="badge badge-secondary">Tersedia</span>
             ) : (
-              <span className="badge badge-primary">sold</span>
+              <span className="badge badge-primary">Habis</span>
             )}
           </h6>
           <p className="card-text">{data.description}</p>

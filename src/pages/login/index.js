@@ -34,7 +34,7 @@ const Login = () => {
 
   return (
     <div className="loginPage">
-      <h2> Login Pag rasyide</h2>
+      <h2> Login Page</h2>
       <form
         className="login_form"
         onSubmit={(e) => {
