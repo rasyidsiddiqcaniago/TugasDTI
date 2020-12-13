@@ -1,0 +1,13 @@
+priceInfo {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+mybadges {
+  border: 2px solid red;
+  background-color: aqua;
+  color: red;
+}
